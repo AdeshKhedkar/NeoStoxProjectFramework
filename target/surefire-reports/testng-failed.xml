@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Command line suite]" verbose="0">
+  <test thread-count="5" name="Command line test(failed)" verbose="0">
+    <classes>
+      <class name="com.NeoStox.TestCases.TradePanelPageTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="initializeDriver"/>
+          <include name="openReport"/>
+          <include name="ExpandCollapseFunctionality_ShowInstrumentList"/>
+          <include name="LinkValidation"/>
+        </methods>
+      </class> <!-- com.NeoStox.TestCases.TradePanelPageTest -->
+      <class name="com.NeoStox.TestCases.LoginPageTest">
+        <methods>
+          <include name="LoginPageNavigationTest"/>
+          <include name="teardown"/>
+          <include name="LoginPageTest1"/>
+          <include name="initializeDriver"/>
+          <include name="openReport"/>
+        </methods>
+      </class> <!-- com.NeoStox.TestCases.LoginPageTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

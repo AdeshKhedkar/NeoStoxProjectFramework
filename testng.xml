@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="5">
+	<listeners>
+		<listener class-name="com.NeoStox.Utilities.ListnerUtility"></listener>  
+		<listener class-name="com.NeoStox.Utilities.MethodInterceptor"></listener> 
+	</listeners>
+	<test name="Test">
+		<classes>
+			<class name="com.NeoStox.TestCases.LoginPageTest" /> 
+			<class name="com.NeoStox.TestCases.TradePanelPageTest" />
+			<class name="com.NeoStox.TestCases.BasketOredrsPageTest" />
+			
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

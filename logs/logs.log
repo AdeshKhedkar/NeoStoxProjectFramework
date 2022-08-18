@@ -1,0 +1,24 @@
+2022-08-17 20:30:41,196  INFO [main] TestBase:46 - Initializing chrome driver
+2022-08-17 20:30:58,802  INFO [main] CommonActions:22 - Entering text : 9604154175
+2022-08-17 20:30:59,532  INFO [main] CommonActions:63 - wait for seconds : 2000
+2022-08-17 20:31:01,609  INFO [main] CommonActions:27 - Clicking on : Submit
+2022-08-17 20:31:02,692  INFO [main] CommonActions:63 - wait for seconds : 2000
+2022-08-17 20:31:04,738  INFO [main] CommonActions:22 - Entering text : 2812
+2022-08-17 20:31:04,840  INFO [main] CommonActions:63 - wait for seconds : 2000
+2022-08-17 20:31:06,927  INFO [main] CommonActions:27 - Clicking on : Submit
+2022-08-17 20:31:07,068  INFO [main] CommonActions:63 - wait for seconds : 2000
+2022-08-17 20:31:15,351  INFO [main] CommonActions:27 - Clicking on : OK
+2022-08-17 20:31:15,901  INFO [main] CommonActions:27 - Clicking on : Strategies
+2022-08-17 20:31:18,025  INFO [main] CommonActions:27 - Clicking on : Basket Orders
+2022-08-17 20:31:18,901  INFO [main] CommonActions:27 - Clicking on : Create Basket
+2022-08-17 20:31:26,194  INFO [main] TestBase:64 - Closing driver
+2022-08-17 20:31:41,434  INFO [main] TestBase:46 - Initializing chrome driver
+2022-08-17 20:31:49,785  INFO [main] CommonActions:22 - Entering text : 9604154175
+2022-08-17 20:31:49,997  INFO [main] CommonActions:63 - wait for seconds : 2000
+2022-08-17 20:31:52,083  INFO [main] CommonActions:27 - Clicking on : Submit
+2022-08-17 20:31:52,213  INFO [main] CommonActions:63 - wait for seconds : 2000
+2022-08-17 20:31:58,181  INFO [main] CommonActions:22 - Entering text : 2812
+2022-08-17 20:31:58,274  INFO [main] CommonActions:63 - wait for seconds : 2000
+2022-08-17 20:32:00,440  INFO [main] CommonActions:27 - Clicking on : Submit
+2022-08-17 20:32:05,149  INFO [main] CommonActions:63 - wait for seconds : 2000
+2022-08-17 20:33:07,657  INFO [main] TestBase:46 - Initializing chrome driver

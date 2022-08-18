@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.NeoStox.Utilities.ListnerUtility"/>
+    <listener class-name="com.NeoStox.Utilities.MethodInterceptor"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.NeoStox.TestCases.TradePanelPageTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="initializeDriver"/>
+          <include name="openReport"/>
+          <include name="LinkValidation"/>
+        </methods>
+      </class> <!-- com.NeoStox.TestCases.TradePanelPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
